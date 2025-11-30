@@ -14,24 +14,6 @@ A free, offline-capable web application that helps users identify suspicious SMS
 - **Accessible** - WCAG AA compliant with keyboard navigation and screen reader support
 - **Shareable** - Single file that's easy to distribute to family and friends
 
-## 🚀 Quick Start
-
-### Option 1: Open Directly
-Simply open `index.html` in any modern web browser. That's it!
-
-### Option 2: Host Locally
-```bash
-# Using Python 3
-python -m http.server 8000
-
-# Using Node.js
-npx serve
-
-# Then open http://localhost:8000
-```
-
-### Option 3: Deploy
-Upload `index.html` to any web hosting service. No build process or server required.
 
 ## 📱 How to Use
 
