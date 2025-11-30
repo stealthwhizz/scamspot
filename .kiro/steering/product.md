@@ -1,6 +1,6 @@
 # Product Overview
 
-ScamSpot is a single-purpose web application that helps users identify suspicious SMS messages by analyzing them for common scam patterns. It provides instant risk assessment, detects specific red flags, and offers clear recommendations on appropriate actions.
+SafeText is a single-purpose web application that helps users identify suspicious SMS messages by analyzing them for common scam patterns. It provides instant risk assessment, detects specific red flags, and offers clear recommendations on appropriate actions.
 
 ## Key Characteristics
 

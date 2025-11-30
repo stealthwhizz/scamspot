@@ -25,7 +25,7 @@ Target modern browsers with ES6 support:
 
 - **Unit tests**: For specific examples and edge cases
 - **Property-based tests**: Using fast-check library (100+ iterations per property)
-- **Property test format**: Comment tag `// Feature: scamspot, Property {number}: {description}`
+- **Property test format**: Comment tag `// Feature: SafeText, Property {number}: {description}`
 
 ## Common Commands
 

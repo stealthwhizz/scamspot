@@ -1,4 +1,4 @@
-# 🛡️ ScamSpot - SMS Scam Detector
+# 🛡️ SafeText - SMS Scam Detector
 
 A free, offline-capable web application that helps users identify suspicious SMS messages by analyzing them for common scam patterns. Built as a single HTML file with no dependencies.
 
@@ -130,7 +130,7 @@ Do not share with anyone.
 ├── README.md              # This file
 └── .kiro/
     └── specs/
-        └── scamspot/
+        └── SafeText/
             ├── requirements.md  # User stories & acceptance criteria
             ├── design.md        # Architecture & correctness properties
             └── tasks.md         # Implementation checklist
@@ -196,6 +196,6 @@ Built with a focus on accessibility, privacy, and helping protect vulnerable use
 
 ---
 
-**Remember:** ScamSpot is a tool to help identify suspicious patterns. Always use your judgment and verify through official channels when in doubt.
+**Remember:** SafeText is a tool to help identify suspicious patterns. Always use your judgment and verify through official channels when in doubt.
 
 Stay safe! 🛡️

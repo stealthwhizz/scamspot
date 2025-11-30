@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ScamSpot - SMS Scam Detector</title>
+    <title>SafeText - SMS Scam Detector</title>
     <style>
         /* Reset and Base Styles */
         * {
@@ -351,7 +351,7 @@
 <body>
     <header>
         <div class="container">
-            <h1>🛡️ ScamSpot</h1>
+            <h1>🛡️ SafeText</h1>
             <p>Protect yourself from SMS scams with instant message analysis</p>
         </div>
     </header>
@@ -423,9 +423,9 @@
                 <button 
                     id="share-button" 
                     class="btn-share"
-                    aria-label="Share ScamSpot with others"
+                    aria-label="Share SafeText with others"
                 >
-                    📤 Share ScamSpot
+                    📤 Share SafeText
                 </button>
             </div>
         </div>
@@ -433,7 +433,7 @@
 
     <footer>
         <div class="container">
-            <p>ScamSpot - Free SMS Scam Detection Tool | Works Offline | No Data Collection</p>
+            <p>SafeText - Free SMS Scam Detection Tool | Works Offline | No Data Collection</p>
         </div>
     </footer>
 
@@ -963,13 +963,13 @@
          * Handles the share button click
          */
         function handleShare() {
-            const shareText = 'Check out ScamSpot - a free tool to detect SMS scams and protect yourself from fraud!';
+            const shareText = 'Check out SafeText - a free tool to detect SMS scams and protect yourself from fraud!';
             const shareUrl = window.location.href;
 
             // Use Web Share API if available (for mobile)
             if (navigator.share) {
                 navigator.share({
-                    title: 'ScamSpot - SMS Scam Detector',
+                    title: 'SafeText - SMS Scam Detector',
                     text: shareText,
                     url: shareUrl
                 }).catch(err => {
@@ -992,7 +992,7 @@
         
         // Wait for DOM to be ready
         document.addEventListener('DOMContentLoaded', function() {
-            console.log('ScamSpot initialized with', 
+            console.log('SafeText initialized with', 
                 PATTERNS.highRisk.length + PATTERNS.mediumRisk.length + PATTERNS.lowRisk.length,
                 'detection patterns');
 

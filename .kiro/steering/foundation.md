@@ -1,4 +1,4 @@
-# ScamSpot Development Standards
+# SafeText Development Standards
 
 ## Code Quality
 - Write clean, self-documenting code

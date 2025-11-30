@@ -5,7 +5,7 @@
 ```
 .kiro/
 ├── specs/
-│   └── scamspot/
+│   └── SafeText/
 │       ├── requirements.md    # User stories and acceptance criteria
 │       ├── design.md          # Architecture and correctness properties
 │       └── tasks.md           # Implementation checklist

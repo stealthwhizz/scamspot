@@ -1,8 +1,8 @@
-# ScamSpot Design Document
+# SafeText Design Document
 
 ## Overview
 
-ScamSpot is a client-side web application that analyzes SMS messages for scam indicators using pattern matching and scoring algorithms. The application is built as a single, self-contained HTML file with embedded CSS and vanilla JavaScript, requiring no backend infrastructure or external dependencies. The architecture follows a simple MVC-inspired pattern where the UI layer handles user interactions, the analysis engine processes messages through pattern detection, and the scoring system calculates risk levels based on weighted pattern matches.
+SafeText is a client-side web application that analyzes SMS messages for scam indicators using pattern matching and scoring algorithms. The application is built as a single, self-contained HTML file with embedded CSS and vanilla JavaScript, requiring no backend infrastructure or external dependencies. The architecture follows a simple MVC-inspired pattern where the UI layer handles user interactions, the analysis engine processes messages through pattern detection, and the scoring system calculates risk levels based on weighted pattern matches.
 
 ## Architecture
 
@@ -366,7 +366,7 @@ const RECOMMENDATIONS = {
 
 ## Testing Strategy
 
-ScamSpot will employ a dual testing approach combining unit tests and property-based tests to ensure comprehensive correctness validation.
+SafeText will employ a dual testing approach combining unit tests and property-based tests to ensure comprehensive correctness validation.
 
 ### Unit Testing
 
@@ -400,7 +400,7 @@ Property-based tests will verify universal properties across all inputs using **
 
 **Tagging Convention**: Each property-based test will include a comment tag in this exact format:
 ```javascript
-// Feature: scamspot, Property {number}: {property description}
+// Feature: SafeText, Property {number}: {property description}
 ```
 
 **Property Test Requirements**:

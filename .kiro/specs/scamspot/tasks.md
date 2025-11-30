@@ -11,7 +11,7 @@
   - Create textarea for message input with proper labels
   - Create "Check for Scam" button with accessible markup
   - Create results display area with placeholders for risk badge, score, and red flags list
-  - Add "Check Another Message" and "Share ScamSpot" buttons
+  - Add "Check Another Message" and "Share SafeText" buttons
   - Implement mobile-first responsive layout with flexbox
   - Apply color scheme (blue for trust, green/yellow/red for risk levels)
   - Ensure minimum font size of 16px and touch targets of 44x44px
@@ -221,7 +221,7 @@
   - [ ] 6.8 Wire up all event handlers
     - Attach handleAnalyzeClick to "Check for Scam" button
     - Attach clearResults to "Check Another Message" button
-    - Attach handleShare to "Share ScamSpot" button
+    - Attach handleShare to "Share SafeText" button
     - Add keyboard support (Enter key in textarea triggers analysis)
     - Ensure all handlers work without page reload
     - _Requirements: 1.2, 4.1, 5.1, 5.4, 13.2_
